@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# VSCode and JetBrains IDEs
+.vscode/
+.idea/
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch / Transformers cache
+*.bin
+*.h5
+*.ckpt
+.cache/
+transformers_cache/
+torch_cache/
+
+# FAISS index and pickle files (optional: comment out if you want them in Git)
+*.faiss
+*.pkl
+
+# Data files
+*.pdf
+*.csv
+
