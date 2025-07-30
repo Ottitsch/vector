@@ -12,8 +12,6 @@ STORE_DIR = "pdf_store"
 os.makedirs(STORE_DIR, exist_ok=True)
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
-
-# in-memory DB: {pdf_name: {"vectors": np.ndarray, "texts": list}}
 pdf_db = {}
 
 def build_embeddings_from_pdf(pdf_path, pdf_name):
